@@ -1,0 +1,46 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, p, ul, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de la barre de navigation */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Styles du titre principal et du paragraphe */
+.highlighted {
+    background-color: #006222;
+    border: 2px solid #ff0000;
+    padding: 10px;
+}
+
+/* Style de l'image centrée */
+.centered {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+}
+
+/* Styles de la liste à puces */
+ul {
+    list-style: disc;
+}
+
+/* Styles du formulaire */
+form {
+    margin-top: 20px;
+}
+
+label, input, input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
